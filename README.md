@@ -121,3 +121,24 @@ VITE v5.x.x ready in 250 ms
 ➜ press h + enter to show help
 
 Open http://localhost:5173 in your browser
+
+and you see like this
+
+![Remind_mui](./screenshots/img1.jpg)
+![Remind_mui](./screenshots/img2.jpg)
+![Remind_mui](./screenshots/img3.jpg)
+![Remind_mui](./screenshots/img4.jpg)
+![Remind_mui](./screenshots/img5.jpg)
+![Remind_mui](./screenshots/img6.jpg)
+
+your .env file must contain
+
+---
+
+VITE_EMAILJS_SERVICE_ID=(your email service id )
+VITE_EMAILJS_TEMPLATE_ID=(your email service template id )
+VITE_EMAILJS_PUBLIC_KEY=(your email service public id )
+VITE_PAYPAL_CLIENT_ID= (your paypal triel account id )
+VITE_PAYPAL_ENVIRONMENT=sandbox
+
+---
